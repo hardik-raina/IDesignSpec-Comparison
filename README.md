@@ -7,15 +7,24 @@ This script compares HTML tables from two files and processes them based on the 
 - Python 3.x
 - `pandas` library
 
-### Script Usage
+### Setup
 
-Run the script from the command line with the following options:
+* Option 1:
 ```bash 
 pip install -r requirements.txt
 ```
+* Option 2:
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+### Script Usage
+
+Run the script from the command line with the following options:
 
 ```bash
-python script_name.py --golden <path_to_golden_html> --target <path_to_target_html> --max_time <max_processing_time>
+python comp.py --golden <path_to_golden_htm> --target <path_to_target_htm> --max_time <max_processing_time>
 ```
 
 ### Arguments
@@ -26,10 +35,10 @@ python script_name.py --golden <path_to_golden_html> --target <path_to_target_ht
 
 ### Example
 
-To compare `golden.html` with `target.html` and set a processing timeout of 600 seconds, use:
+To compare `golden.htm` with `target.htm` and set a processing timeout of 600 seconds, use:
 
 ```bash
-python script_name.py --golden /path/to/golden.html --target /path/to/target.html --max_time 600
+python comp.py --golden /path/to/golden.htm --target /path/to/target.htm --max_time 600
 ```
 
 ### Script Functionality
