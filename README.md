@@ -50,3 +50,10 @@ python comp.py --golden /path/to/golden.htm --target /path/to/target.htm --max_t
 
 - Ensure that paths to the HTML files are correctly specified.
 - The script uses `pandas` for processing HTML tables, so ensure it's installed in your environment.
+- Recommended directory Structure
+- root
+  - comp.py
+  - golden_folder
+    - golden.htm
+  - target_folder
+    - target.htm
