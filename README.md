@@ -1,6 +1,3 @@
-Here’s a revised `README.md` based on the new content you provided:
-
-```markdown
 # Table Comparison Script
 
 This script compares tables in two HTML files and reports differences. It offers various options for comparison modes, processing time, and output verbosity.
@@ -84,6 +81,3 @@ python comp.py --golden /path/to/golden.htm --target /path/to/target.htm --max_t
 
 1. **Initialize `Table` Objects**: Creates `Table` instances for the golden and target HTML files.
 2. **Set Root Path**: The root path for processing is set based on the golden HTML file’s directory.
-```
-
-Feel free to adjust any details to better fit your specific needs!
